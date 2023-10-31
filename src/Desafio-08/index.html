@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio - 06</title>
+    <title>Desafio - 08</title>
     <link rel="icon" href="../../assets/icons/js.ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,10 +13,17 @@
         <div class="container">
             <h1>Manipular Parágrafo</h1>
 
-            <p id="paragraph">Podem ser alterados: cor de fonte, cor de fundo do parágrafo.</p>
+            <p id="paragraph">
+                Podem ser alterados: cor de fonte, cor de fundo do parágrafo, 
+                tamanho de texto e converter texto para maiúsculo ou minúculo
+            </p>
             
             <button onclick="changeTextColor()">Trocar Cor da Fonte</button>
             <button onclick="changeBackgroundColor()">Trocar Cor de Fundo</button>
+            <button onclick="increaseFontSize()">+</button>
+            <button onclick="decreaseFontSize()">-</button>
+            <button onclick="convertToUppercase()">Maiúscula</button>
+            <button onclick="convertToLowercase()">Minúscula</button>
         </div>
     </section>
 
