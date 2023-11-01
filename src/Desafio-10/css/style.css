@@ -1,0 +1,133 @@
+:root{
+    --dark-color: #000000;
+    --white-color: #FFFFFF;
+    --blue-color: #00E5EE;
+    --gray-color: #B2ADAD;
+    --green-color: #089108; 
+    --red-color: #FF0000;  
+}
+
+body{
+    background-image: radial-gradient(circle, var(--gray-color) 0%, var(--dark-color) 100%);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: var(--blue-color);
+}
+
+h2 {
+    text-align: center;
+    color: var(--blue-color);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: var(--blue-color);
+}
+
+button{
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--blue-color);
+    background: var(--dark-color);
+    color: var(--blue-color);
+}
+
+.container {
+    background-color: var(--dark-color);
+    padding: 20px;
+    border: 1px solid var(--blue-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--blue-color);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.input-form {
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.input-focus:focus {
+    border: 2px solid var(--blue-color);
+    outline: none;
+}
+
+.input-form-small {
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.client-type {
+    color: var(--blue-color);
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.output {
+    height: 20px;
+    text-align: center;
+    color: var(--blue-color);
+}
+
+#register-button {
+    background: var(--dark-color);
+    color: var(--green-color);
+}
+
+#register-button:hover {
+    background: var(--blue-color);
+    color: var(--green-color);
+}
+
+#cancel-button {
+    background: var(--dark-color);
+    color: var(--red-color);
+}
+
+#cancel-button:hover {
+    background: var(--blue-color);
+    color: var(--red-color);
+}
+
+#return-button {
+    width: 350px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--blue-color);
+    background: var(--dark-color);
+    color: var(--blue-color);
+}
+
+#return-button:hover {
+    width: 350px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--blue-color);
+    background: var(--blue-color);
+    color: var(--dark-color);
+}
+
