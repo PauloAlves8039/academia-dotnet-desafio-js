@@ -4,7 +4,7 @@
 
 Repositório com lista de desafios utilizando `JavaScript`, esse projeto faz parte de um desafio proposto na Academia DotNet ministrada pela `Universidade Franciscana - UFN`.
 
-## :page_facing_up: Lista de Exercícios
+## :page_facing_up: Lista dos Exercícios
 
 1 - crie um formulário com 4 botões que, ao clicar em cada um, altere a cor do plano de fundo da página para vermelho, verde, azul e amarelo, respectivamente.
 
@@ -32,7 +32,7 @@ O foco desses projetos é a utlização da linguagem `JavaScript` para soluciona
 
 Na organização dos projetos optei em criar os arquivos `script.js` e `style.css` em pastas separadas dos aquivos `index.html`, além das boas práticas isso facilita em ajustes nos arquivos e futuras implementações caso seja necessário.
 
-## :page_facing_up: Links de Exercícios
+## :page_facing_up: Links dos Exercícios
 
 - [Desafio 1](https://github.com/PauloAlves8039/academia-dotnet-desafio-js/tree/master/src/Desafio-01)
 - [Desafio 2](https://github.com/PauloAlves8039/academia-dotnet-desafio-js/tree/master/src/Desafio-02)
