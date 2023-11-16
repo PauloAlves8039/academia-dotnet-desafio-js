@@ -1,16 +1,19 @@
 const paragraph = document.getElementById("paragraph");
 
-let fontColor = "#000000";
-let backgroundColor = "#FFFFFF";
+const colorBlack = "#000000";
+const colorWhite = "#FFFFFF";
+
+let fontColor = colorBlack;
+let backgroundColor = colorWhite;
 let currentSize = window.getComputedStyle(paragraph, null).getPropertyValue("font-size");
 
 function changeTextColor() {
-  fontColor = fontColor === "#000000" ? "#FFFFFF" : "#000000";
+  fontColor = fontColor === colorBlack ? colorWhite : colorBlack;
   paragraph.style.color = fontColor;
 }
 
 function changeBackgroundColor() {
-  backgroundColor = backgroundColor === "#FFFFFF" ? "black" : "#FFFFFF";
+  backgroundColor = backgroundColor === colorWhite ? colorBlack : colorWhite;
   paragraph.style.backgroundColor = backgroundColor;
 }
 
