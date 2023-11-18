@@ -1,5 +1,12 @@
 <h1 align="center">Academia DotNet - Desafio JS</h1>
 
+<p align="center">
+  <a href="https://www.w3schools.com/html/"><img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /></a>
+  <a href="https://www.w3schools.com/css/"><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" /></a>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></a>
+</p>
+
+
 ## :computer: Projeto
 
 Repositório com lista de desafios utilizando `JavaScript`, esse projeto faz parte de um desafio proposto na Academia DotNet ministrada pela `Universidade Franciscana - UFN`.
@@ -53,7 +60,11 @@ Na organização dos projetos optei em criar os arquivos `script.js` e `style.cs
 
 ## :floppy_disk: Clonar Repositório
 
-```git clone https://github.com/PauloAlves8039/academia-dotnet-desafio-js.git```
+```bash
+git clone https://github.com/PauloAlves8039/academia-dotnet-desafio-js.git
+```
 
-## Author
-:boy: [Paulo Alves](https://github.com/PauloAlves8039)
+## :boy: Author
+
+<a href="https://github.com/PauloAlves8039"><img src="https://avatars.githubusercontent.com/u/57012714?v=4" width=70></a>
+[Paulo Alves](https://github.com/PauloAlves8039)
